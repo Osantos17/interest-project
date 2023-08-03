@@ -1,0 +1,117 @@
+/* Box Model Hack */
+
+nav button {
+  padding: 0px 40px;
+}
+
+@media screen and (max-width:600px) {
+  nav {
+    display: none;
+  }
+
+}
+
+@media (min-width:601px) and (max-width:5000px) {
+  select {
+    display: none;
+  }
+}
+
+* {
+  -moz-box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  background-color: white;
+}
+
+h2 {
+  font-size: xxx-large;
+}
+
+.score {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 45%;
+  background-color: blue;
+  text-align: center;
+}
+
+h1 {
+  color: grey;
+  font-size: larger;
+}
+
+h3 {
+  margin-top: -25px;
+}
+
+.score,
+section {
+  color: white;
+}
+
+.score section {
+  background-color: red;
+  border: 0px solid white;
+  height: 30%;
+  width: 20%;
+  border-radius: 50%;
+  margin: auto;
+}
+
+h3 {
+  color: gray;
+}
+
+div p {
+  color: grey;
+}
+
+header {
+  text-align: left;
+}
+
+ul {
+  color: black;
+}
+
+.stats {
+  background-color: white;
+  padding: 0px 10px;
+}
+
+
+
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/**************************
